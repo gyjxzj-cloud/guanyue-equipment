@@ -1,0 +1,141 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>Professional Concrete Batching Plants<br><span class="highlight">HZS25 – HZDS180</span></h1>
+      <p class="hero-subtitle">Reliable, durable, and cost-effective concrete mixing solutions. <br class="hide-mobile">Exported worldwide with full technical support.</p>
+      <div class="hero-cta">
+        <a href="/contact/" class="btn btn-primary btn-lg">Get a Quote</a>
+        <a href="/products/" class="btn btn-outline btn-lg">View Products</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <span class="stat-number">15+</span>
+        <span class="stat-label">Years Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">500+</span>
+        <span class="stat-label">Units Delivered</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">30+</span>
+        <span class="stat-label">Countries Exported</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">24/7</span>
+        <span class="stat-label">Technical Support</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Product Overview -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Our Product Range</h2>
+    <p class="section-subtitle">From compact HZS25 to high-capacity HZDS180 — we cover all project scales</p>
+    <div class="product-grid">
+      {{ range where .Site.RegularPages "Section" "products" }}
+      <a href="{{ .RelPermalink }}" class="product-card">
+        <div class="product-card-img">
+          <div class="placeholder-img">🏗️</div>
+        </div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.subtitle }}</p>
+        <div class="product-card-specs">
+          <span>{{ .Params.capacity }}</span>
+          <span>{{ .Params.mixer }}</span>
+        </div>
+        <span class="card-cta">Learn More →</span>
+      </a>
+      {{ end }}
+    </div>
+    <div class="text-center mt-2">
+      <a href="/products/" class="btn btn-secondary">View All Products</a>
+    </div>
+  </div>
+</section>
+
+<!-- Why Us -->
+<section class="section bg-light">
+  <div class="container">
+    <h2 class="section-title">Why Choose Us</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🏭</div>
+        <h3>Factory Direct</h3>
+        <p>No middlemen. Competitive factory pricing with strict quality control from raw material to finished product.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌍</div>
+        <h3>Global Shipping</h3>
+        <p>Professional export logistics. We handle shipping, customs clearance, and delivery to your project site worldwide.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔧</div>
+        <h3>Full Technical Support</h3>
+        <p>Installation guidance, remote debugging, operator training, and spare parts supply — we've got you covered.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✅</div>
+        <h3>CE & ISO Certified</h3>
+        <p>All equipment meets international quality and safety standards. CE, ISO 9001, and SGS certified.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>Fast Delivery</h3>
+        <p>Standard lead time 15-30 days. Custom configurations available with quick turnaround.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h3>After-Sales Service</h3>
+        <p>One-year warranty, lifetime technical consultation, and responsive after-sales team via WhatsApp/email.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Our Projects Worldwide</h2>
+    <p class="section-subtitle">Trusted by contractors and construction companies across 30+ countries</p>
+    <div class="cases-grid">
+      {{ range first 3 (where .Site.RegularPages "Section" "cases") }}
+      <a href="{{ .RelPermalink }}" class="case-card">
+        <div class="case-card-img">
+          <div class="placeholder-img">📸 {{ .Params.country }}</div>
+        </div>
+        <div class="case-card-body">
+          <span class="case-tag">{{ .Params.country }}</span>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Params.description }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ if gt (len (where .Site.RegularPages "Section" "cases")) 3 }}
+    <div class="text-center mt-2">
+      <a href="/cases/" class="btn btn-secondary">View All Projects</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Ready to Start Your Project?</h2>
+    <p>Get a customized quote and technical proposal within 24 hours.</p>
+    <a href="/contact/" class="btn btn-primary btn-lg">Contact Us Now</a>
+  </div>
+</section>
+{{ end }}

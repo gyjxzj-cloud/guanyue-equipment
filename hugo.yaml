@@ -1,0 +1,53 @@
+baseURL: "https://yourdomain.com"
+languageCode: "en-us"
+title: "Guanyu Machinery | Concrete Batching Plant Manufacturer"
+theme: "industrial"
+
+params:
+  description: "Guanyu Machinery — professional manufacturer of concrete batching plants HZS25-HZDS180. CE certified, factory direct prices, worldwide shipping."
+  phone: "+86-138-0000-0000"
+  email: "sales@guanyumachinery.com"
+  whatsapp: "+8613800000000"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Products"
+      url: "/products/"
+      weight: 2
+    - name: "Solutions"
+      url: "/solutions/"
+      weight: 3
+    - name: "Projects"
+      url: "/cases/"
+      weight: 4
+    - name: "Blog"
+      url: "/blog/"
+      weight: 5
+    - name: "About"
+      url: "/about/"
+      weight: 6
+    - name: "Contact"
+      url: "/contact/"
+      weight: 7
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+permalinks:
+  products: "/products/:slug/"
+  blog: "/blog/:slug/"
+  cases: "/cases/:slug/"
+
+outputs:
+  home: ["HTML"]
+  page: ["HTML"]
+  section: ["HTML"]
+
+disableKinds:
+  - "sitemap"
+  - "RSS"

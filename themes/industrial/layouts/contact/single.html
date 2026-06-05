@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="contact-section">
+  <div class="container">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-subtitle">{{ .Params.subtitle }}</p>
+    <div class="contact-form">
+      <form name="contact" netlify>
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="company">Company Name</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone / WhatsApp</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="product">Product of Interest</label>
+          <select id="product" name="product">
+            <option value="">Select a product...</option>
+            <option value="HZS25">HZS25</option>
+            <option value="HZS35">HZS35</option>
+            <option value="HZS50">HZS50</option>
+            <option value="HZS75">HZS75</option>
+            <option value="HZS90">HZS90</option>
+            <option value="HZS120">HZS120</option>
+            <option value="HZDS180">HZDS180</option>
+            <option value="Custom">Custom / Not Sure</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="country">Project Country</label>
+          <input type="text" id="country" name="country" placeholder="e.g. Indonesia, Nigeria...">
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message *</label>
+          <textarea id="message" name="message" required placeholder="Tell us about your project requirements, target capacity, and any specific needs..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Send Inquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+{{ end }}

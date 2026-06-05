@@ -1,0 +1,14 @@
+name: industrial
+license: MIT
+licenselink: https://opensource.org/licenses/MIT
+description: Custom industrial B2B theme for concrete batching plant equipment export
+homepage: https://github.com/
+tags:
+  - industrial
+  - b2b
+  - manufacturing
+features:
+  - responsive
+  - seo-friendly
+  - multilingual-ready
+min_version: 0.110.0

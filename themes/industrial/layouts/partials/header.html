@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">
+      <span class="logo-icon">🏗️</span>
+      <span class="logo-text">{{ site.Title }}</span>
+    </a>
+    <button class="mobile-nav-toggle" aria-label="Toggle navigation" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
+        <li><a href="/products/" {{ if hasPrefix .RelPermalink "/products/" }}class="active"{{ end }}>Products</a></li>
+        <li><a href="/solutions/" {{ if hasPrefix .RelPermalink "/solutions/" }}class="active"{{ end }}>Solutions</a></li>
+        <li><a href="/cases/" {{ if hasPrefix .RelPermalink "/cases/" }}class="active"{{ end }}>Projects</a></li>
+        <li><a href="/blog/" {{ if hasPrefix .RelPermalink "/blog/" }}class="active"{{ end }}>Blog</a></li>
+        <li><a href="/about/" {{ if eq .RelPermalink "/about/" }}class="active"{{ end }}>About</a></li>
+        <li><a href="/contact/" class="btn btn-primary nav-cta">Get Quote</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

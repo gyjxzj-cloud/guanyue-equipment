@@ -1,0 +1,20 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-subtitle">{{ .Params.subtitle | default "Real projects, real results" }}</p>
+    <div class="cases-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="case-card">
+        <div class="case-card-img"><div class="placeholder-img">📸 {{ .Params.country }}</div></div>
+        <div class="case-card-body">
+          <span class="case-tag">{{ .Params.country }}</span>
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Params.description }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

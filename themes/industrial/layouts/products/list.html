@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <h1 class="section-title">{{ .Title }}</h1>
+    <p class="section-subtitle">{{ .Params.subtitle | default "Explore our complete range of concrete batching plants" }}</p>
+    <div class="product-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="product-card">
+        <div class="product-card-img"><div class="placeholder-img">🏗️</div></div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.subtitle }}</p>
+        <div class="product-card-specs">
+          <span>{{ .Params.capacity }}</span>
+          <span>{{ .Params.mixer }}</span>
+        </div>
+        <span class="card-cta">Learn More →</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
