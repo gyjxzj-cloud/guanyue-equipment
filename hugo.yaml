@@ -61,11 +61,6 @@ markup:
     renderer:
       unsafe: true
 
-permalinks:
-  products: "/products/:slug/"
-  blog: "/blog/:slug/"
-  cases: "/cases/:slug/"
-
 outputs:
   home: ["HTML"]
   page: ["HTML"]
