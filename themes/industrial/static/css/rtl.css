@@ -1,0 +1,67 @@
+/* RTL Support for Arabic */
+html[dir="rtl"] body {
+  font-family: 'Noto Kufi Arabic', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html[dir="rtl"] .header-inner {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .main-nav ul {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .product-card-specs {
+  justify-content: flex-start;
+}
+
+html[dir="rtl"] .stats-grid {
+  direction: ltr;
+}
+
+html[dir="rtl"] .hero-cta {
+  flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .footer-grid {
+  direction: rtl;
+}
+
+html[dir="rtl"] .lang-select {
+  direction: rtl;
+}
+
+html[dir="rtl"] .form-group label {
+  text-align: right;
+}
+
+html[dir="rtl"] .specs-table th, 
+html[dir="rtl"] .specs-table td {
+  text-align: right;
+}
+
+html[dir="rtl"] .case-card-body,
+html[dir="rtl"] .blog-card-body,
+html[dir="rtl"] .feature-card {
+  text-align: right;
+}
+
+/* Language switcher */
+.lang-switcher {
+  margin-left: 8px;
+}
+
+.lang-select {
+  padding: 6px 10px;
+  border: 1px solid var(--light-gray);
+  border-radius: 4px;
+  font-size: 0.8rem;
+  background: var(--white);
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.lang-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}

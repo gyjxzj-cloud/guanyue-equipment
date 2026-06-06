@@ -1,0 +1,202 @@
+# Español - i18n/es.toml
+
+[home]
+other = "Inicio"
+
+[products]
+other = "Productos"
+
+[solutions]
+other = "Soluciones"
+
+[projects]
+other = "Proyectos"
+
+[blog]
+other = "Blog"
+
+[about]
+other = "Nosotros"
+
+[contact]
+other = "Contacto"
+
+[get_quote]
+other = "Solicitar Cotización"
+
+[hero_title]
+other = "Plantas de Hormigón Profesionales"
+
+[hero_subtitle]
+other = "Soluciones de mezcla de hormigón fiables, duraderas y rentables. Exportadas a todo el mundo con soporte técnico completo."
+
+[hero_cta_quote]
+other = "Solicitar Cotización"
+
+[hero_cta_products]
+other = "Ver Productos"
+
+[stat_years]
+other = "Años de Experiencia"
+
+[stat_units]
+other = "Unidades Entregadas"
+
+[stat_countries]
+other = "Países Exportados"
+
+[stat_support]
+other = "Soporte Técnico"
+
+[product_section_title]
+other = "Nuestra Gama de Productos"
+
+[product_section_subtitle]
+other = "Desde la compacta HZS25 hasta la HZDS180 de alta capacidad — cubrimos todos los tamaños de proyecto"
+
+[product_learn_more]
+other = "Más Información →"
+
+[product_view_all]
+other = "Ver Todos los Productos"
+
+[why_title]
+other = "Por Qué Elegirnos"
+
+[why_factory_title]
+other = "Directo de Fábrica"
+
+[why_factory_text]
+other = "Sin intermediarios. Precios competitivos de fábrica con estricto control de calidad desde la materia prima hasta el producto final."
+
+[why_shipping_title]
+other = "Envío Global"
+
+[why_shipping_text]
+other = "Logística de exportación profesional. Gestionamos el envío, despacho de aduanas y entrega en su obra en todo el mundo."
+
+[why_support_title]
+other = "Soporte Técnico Completo"
+
+[why_support_text]
+other = "Guía de instalación, depuración remota, capacitación de operadores y suministro de repuestos — lo tenemos cubierto."
+
+[why_cert_title]
+other = "Certificado CE e ISO"
+
+[why_cert_text]
+other = "Todos los equipos cumplen estándares internacionales de calidad y seguridad. Certificados CE, ISO 9001 y SGS."
+
+[why_delivery_title]
+other = "Entrega Rápida"
+
+[why_delivery_text]
+other = "Plazo de fabricación de 15 a 30 días. Configuraciones personalizadas disponibles con respuesta rápida."
+
+[why_after_sales_title]
+other = "Servicio Postventa"
+
+[why_after_sales_text]
+other = "Garantía de un año, consultoría técnica de por vida y equipo postventa receptivo vía WhatsApp/correo."
+
+[projects_title]
+other = "Nuestros Proyectos en el Mundo"
+
+[projects_subtitle]
+other = "Confiados por contratistas y empresas constructoras en más de 30 países"
+
+[projects_view_all]
+other = "Ver Todos los Proyectos"
+
+[cta_title]
+other = "¿Listo para Empezar su Proyecto?"
+
+[cta_text]
+other = "Obtenga una cotización personalizada y propuesta técnica en 24 horas."
+
+[cta_button]
+other = "Contáctenos Ahora"
+
+[footer_products]
+other = "Productos"
+
+[footer_quick_links]
+other = "Enlaces Rápidos"
+
+[footer_follow_us]
+other = "Síganos"
+
+[footer_about_us]
+other = "Sobre Nosotros"
+
+[footer_solutions]
+other = "Soluciones"
+
+[footer_projects]
+other = "Casos de Proyecto"
+
+[footer_contact]
+other = "Contacto"
+
+[footer_rights]
+other = "Todos los derechos reservados."
+
+[footer_youtube]
+other = "YouTube"
+
+[footer_linkedin]
+other = "LinkedIn"
+
+[footer_whatsapp]
+other = "WhatsApp"
+
+[contact_title]
+other = "Solicitar Cotización"
+
+[contact_subtitle]
+other = "Complete el formulario y le responderemos en 24 horas con una propuesta personalizada."
+
+[form_name]
+other = "Nombre Completo *"
+
+[form_company]
+other = "Nombre de la Empresa"
+
+[form_email]
+other = "Correo Electrónico *"
+
+[form_phone]
+other = "Teléfono / WhatsApp"
+
+[form_product]
+other = "Producto de Interés"
+
+[form_product_placeholder]
+other = "Seleccione un producto..."
+
+[form_country]
+other = "País del Proyecto"
+
+[form_country_placeholder]
+other = "ej. Indonesia, Nigeria..."
+
+[form_message]
+other = "Su Mensaje *"
+
+[form_message_placeholder]
+other = "Cuéntenos sobre los requisitos de su proyecto, capacidad objetivo y necesidades específicas..."
+
+[form_submit]
+other = "Enviar Consulta"
+
+[form_custom]
+other = "Personalizado / No Estoy Seguro"
+
+[language_switch]
+other = "🌐 Idioma"
+
+[explore_full_range]
+other = "Explore nuestra gama completa de plantas de hormigón"
+
+[real_projects]
+other = "Proyectos reales, resultados reales"

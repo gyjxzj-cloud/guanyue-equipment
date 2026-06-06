@@ -1,6 +1,6 @@
 <header class="site-header">
   <div class="container header-inner">
-    <a href="/" class="logo">
+    <a href="{{ relLangURL "" }}" class="logo">
       <span class="logo-icon">🏗️</span>
       <span class="logo-text">{{ site.Title }}</span>
     </a>
@@ -9,13 +9,20 @@
     </button>
     <nav class="main-nav">
       <ul>
-        <li><a href="/" {{ if .IsHome }}class="active"{{ end }}>Home</a></li>
-        <li><a href="/products/" {{ if hasPrefix .RelPermalink "/products/" }}class="active"{{ end }}>Products</a></li>
-        <li><a href="/solutions/" {{ if hasPrefix .RelPermalink "/solutions/" }}class="active"{{ end }}>Solutions</a></li>
-        <li><a href="/cases/" {{ if hasPrefix .RelPermalink "/cases/" }}class="active"{{ end }}>Projects</a></li>
-        <li><a href="/blog/" {{ if hasPrefix .RelPermalink "/blog/" }}class="active"{{ end }}>Blog</a></li>
-        <li><a href="/about/" {{ if eq .RelPermalink "/about/" }}class="active"{{ end }}>About</a></li>
-        <li><a href="/contact/" class="btn btn-primary nav-cta">Get Quote</a></li>
+        <li><a href="{{ relLangURL "" }}" {{ if .IsHome }}class="active"{{ end }}>{{ i18n "home" }}</a></li>
+        <li><a href="{{ relLangURL "products/" }}" {{ if hasPrefix .RelPermalink "/products/" }}class="active"{{ end }}>{{ i18n "products" }}</a></li>
+        <li><a href="{{ relLangURL "solutions/" }}" {{ if hasPrefix .RelPermalink "/solutions/" }}class="active"{{ end }}>{{ i18n "solutions" }}</a></li>
+        <li><a href="{{ relLangURL "cases/" }}" {{ if hasPrefix .RelPermalink "/cases/" }}class="active"{{ end }}>{{ i18n "projects" }}</a></li>
+        <li><a href="{{ relLangURL "blog/" }}" {{ if hasPrefix .RelPermalink "/blog/" }}class="active"{{ end }}>{{ i18n "blog" }}</a></li>
+        <li><a href="{{ relLangURL "about/" }}" {{ if eq .RelPermalink "/about/" }}class="active"{{ end }}>{{ i18n "about" }}</a></li>
+        <li><a href="{{ relLangURL "contact/" }}" class="btn btn-primary nav-cta">{{ i18n "get_quote" }}</a></li>
+        <li class="lang-switcher">
+          <select onchange="if(this.value) window.location.href=this.value;" class="lang-select">
+            {{ range .Site.Languages }}
+            <option value="{{ relLangURL "" }}"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
+            {{ end }}
+          </select>
+        </li>
       </ul>
     </nav>
   </div>

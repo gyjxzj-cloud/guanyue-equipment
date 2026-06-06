@@ -1,13 +1,20 @@
 {{ define "main" }}
+
+{{ $lang := .Language.Lang }}
+{{ $products := where (where .Site.RegularPages "Section" "products") "Language.Lang" $lang }}
+{{ $cases := where (where .Site.RegularPages "Section" "cases") "Language.Lang" $lang }}
+{{ $allProducts := where .Site.RegularPages "Section" "products" }}
+{{ $allCases := where .Site.RegularPages "Section" "cases" }}
+
 <!-- Hero Section -->
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>Professional Concrete Batching Plants<br><span class="highlight">HZS25 – HZDS180</span></h1>
-      <p class="hero-subtitle">Reliable, durable, and cost-effective concrete mixing solutions. <br class="hide-mobile">Exported worldwide with full technical support.</p>
+      <h1>{{ i18n "hero_title" }}<br><span class="highlight">HZS25 – HZDS180</span></h1>
+      <p class="hero-subtitle">{{ i18n "hero_subtitle" }}</p>
       <div class="hero-cta">
-        <a href="/contact/" class="btn btn-primary btn-lg">Get a Quote</a>
-        <a href="/products/" class="btn btn-outline btn-lg">View Products</a>
+        <a href="{{ relLangURL "contact/" }}" class="btn btn-primary btn-lg">{{ i18n "hero_cta_quote" }}</a>
+        <a href="{{ relLangURL "products/" }}" class="btn btn-outline btn-lg">{{ i18n "hero_cta_products" }}</a>
       </div>
     </div>
   </div>
@@ -19,19 +26,19 @@
     <div class="stats-grid">
       <div class="stat-item">
         <span class="stat-number">15+</span>
-        <span class="stat-label">Years Experience</span>
+        <span class="stat-label">{{ i18n "stat_years" }}</span>
       </div>
       <div class="stat-item">
         <span class="stat-number">500+</span>
-        <span class="stat-label">Units Delivered</span>
+        <span class="stat-label">{{ i18n "stat_units" }}</span>
       </div>
       <div class="stat-item">
         <span class="stat-number">30+</span>
-        <span class="stat-label">Countries Exported</span>
+        <span class="stat-label">{{ i18n "stat_countries" }}</span>
       </div>
       <div class="stat-item">
         <span class="stat-number">24/7</span>
-        <span class="stat-label">Technical Support</span>
+        <span class="stat-label">{{ i18n "stat_support" }}</span>
       </div>
     </div>
   </div>
@@ -40,10 +47,10 @@
 <!-- Product Overview -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">Our Product Range</h2>
-    <p class="section-subtitle">From compact HZS25 to high-capacity HZDS180 — we cover all project scales</p>
+    <h2 class="section-title">{{ i18n "product_section_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "product_section_subtitle" }}</p>
     <div class="product-grid">
-      {{ range where .Site.RegularPages "Section" "products" }}
+      {{ range $allProducts }}
       <a href="{{ .RelPermalink }}" class="product-card">
         <div class="product-card-img">
           <div class="placeholder-img">🏗️</div>
@@ -54,12 +61,12 @@
           <span>{{ .Params.capacity }}</span>
           <span>{{ .Params.mixer }}</span>
         </div>
-        <span class="card-cta">Learn More →</span>
+        <span class="card-cta">{{ i18n "product_learn_more" }}</span>
       </a>
       {{ end }}
     </div>
     <div class="text-center mt-2">
-      <a href="/products/" class="btn btn-secondary">View All Products</a>
+      <a href="{{ relLangURL "products/" }}" class="btn btn-secondary">{{ i18n "product_view_all" }}</a>
     </div>
   </div>
 </section>
@@ -67,37 +74,37 @@
 <!-- Why Us -->
 <section class="section bg-light">
   <div class="container">
-    <h2 class="section-title">Why Choose Us</h2>
+    <h2 class="section-title">{{ i18n "why_title" }}</h2>
     <div class="features-grid">
       <div class="feature-card">
         <div class="feature-icon">🏭</div>
-        <h3>Factory Direct</h3>
-        <p>No middlemen. Competitive factory pricing with strict quality control from raw material to finished product.</p>
+        <h3>{{ i18n "why_factory_title" }}</h3>
+        <p>{{ i18n "why_factory_text" }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🌍</div>
-        <h3>Global Shipping</h3>
-        <p>Professional export logistics. We handle shipping, customs clearance, and delivery to your project site worldwide.</p>
+        <h3>{{ i18n "why_shipping_title" }}</h3>
+        <p>{{ i18n "why_shipping_text" }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🔧</div>
-        <h3>Full Technical Support</h3>
-        <p>Installation guidance, remote debugging, operator training, and spare parts supply — we've got you covered.</p>
+        <h3>{{ i18n "why_support_title" }}</h3>
+        <p>{{ i18n "why_support_text" }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">✅</div>
-        <h3>CE & ISO Certified</h3>
-        <p>All equipment meets international quality and safety standards. CE, ISO 9001, and SGS certified.</p>
+        <h3>{{ i18n "why_cert_title" }}</h3>
+        <p>{{ i18n "why_cert_text" }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">⚡</div>
-        <h3>Fast Delivery</h3>
-        <p>Standard lead time 15-30 days. Custom configurations available with quick turnaround.</p>
+        <h3>{{ i18n "why_delivery_title" }}</h3>
+        <p>{{ i18n "why_delivery_text" }}</p>
       </div>
       <div class="feature-card">
         <div class="feature-icon">🤝</div>
-        <h3>After-Sales Service</h3>
-        <p>One-year warranty, lifetime technical consultation, and responsive after-sales team via WhatsApp/email.</p>
+        <h3>{{ i18n "why_after_sales_title" }}</h3>
+        <p>{{ i18n "why_after_sales_text" }}</p>
       </div>
     </div>
   </div>
@@ -106,10 +113,10 @@
 <!-- Featured Projects -->
 <section class="section">
   <div class="container">
-    <h2 class="section-title">Our Projects Worldwide</h2>
-    <p class="section-subtitle">Trusted by contractors and construction companies across 30+ countries</p>
+    <h2 class="section-title">{{ i18n "projects_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "projects_subtitle" }}</p>
     <div class="cases-grid">
-      {{ range first 3 (where .Site.RegularPages "Section" "cases") }}
+      {{ range first 3 $allCases }}
       <a href="{{ .RelPermalink }}" class="case-card">
         <div class="case-card-img">
           <div class="placeholder-img">📸 {{ .Params.country }}</div>
@@ -122,9 +129,9 @@
       </a>
       {{ end }}
     </div>
-    {{ if gt (len (where .Site.RegularPages "Section" "cases")) 3 }}
+    {{ if gt (len $allCases) 3 }}
     <div class="text-center mt-2">
-      <a href="/cases/" class="btn btn-secondary">View All Projects</a>
+      <a href="{{ relLangURL "cases/" }}" class="btn btn-secondary">{{ i18n "projects_view_all" }}</a>
     </div>
     {{ end }}
   </div>
@@ -133,9 +140,10 @@
 <!-- CTA Section -->
 <section class="cta-section">
   <div class="container">
-    <h2>Ready to Start Your Project?</h2>
-    <p>Get a customized quote and technical proposal within 24 hours.</p>
-    <a href="/contact/" class="btn btn-primary btn-lg">Contact Us Now</a>
+    <h2>{{ i18n "cta_title" }}</h2>
+    <p>{{ i18n "cta_text" }}</p>
+    <a href="{{ relLangURL "contact/" }}" class="btn btn-primary btn-lg">{{ i18n "cta_button" }}</a>
   </div>
 </section>
+
 {{ end }}

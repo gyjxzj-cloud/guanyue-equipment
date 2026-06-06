@@ -1,0 +1,202 @@
+# Русский - i18n/ru.toml
+
+[home]
+other = "Главная"
+
+[products]
+other = "Продукция"
+
+[solutions]
+other = "Решения"
+
+[projects]
+other = "Проекты"
+
+[blog]
+other = "Блог"
+
+[about]
+other = "О компании"
+
+[contact]
+other = "Контакты"
+
+[get_quote]
+other = "Получить предложение"
+
+[hero_title]
+other = "Профессиональные бетонные заводы"
+
+[hero_subtitle]
+other = "Надёжные, долговечные и экономичные решения для бетонных смесей. Экспортируются по всему миру с полной технической поддержкой."
+
+[hero_cta_quote]
+other = "Получить предложение"
+
+[hero_cta_products]
+other = "Посмотреть продукцию"
+
+[stat_years]
+other = "Лет опыта"
+
+[stat_units]
+other = "Единиц поставлено"
+
+[stat_countries]
+other = "Стран экспорта"
+
+[stat_support]
+other = "Техподдержка"
+
+[product_section_title]
+other = "Наш ассортимент"
+
+[product_section_subtitle]
+other = "От компактного HZS25 до высокопроизводительного HZDS180 — покрываем все масштабы проектов"
+
+[product_learn_more]
+other = "Узнать больше →"
+
+[product_view_all]
+other = "Вся продукция"
+
+[why_title]
+other = "Почему выбирают нас"
+
+[why_factory_title]
+other = "Прямые поставки"
+
+[why_factory_text]
+other = "Без посредников. Конкурентоспособные цены с завода со строгим контролем качества от сырья до готового продукта."
+
+[why_shipping_title]
+other = "Глобальная доставка"
+
+[why_shipping_text]
+other = "Профессиональная экспортная логистика. Мы организуем доставку, таможенное оформление и поставку на ваш объект по всему миру."
+
+[why_support_title]
+other = "Полная техподдержка"
+
+[why_support_text]
+other = "Руководство по установке, удалённая отладка, обучение операторов и поставка запчастей — всё включено."
+
+[why_cert_title]
+other = "Сертификаты CE и ISO"
+
+[why_cert_text]
+other = "Всё оборудование соответствует международным стандартам качества и безопасности. Сертифицировано CE, ISO 9001 и SGS."
+
+[why_delivery_title]
+other = "Быстрая поставка"
+
+[why_delivery_text]
+other = "Стандартный срок изготовления 15-30 дней. Возможны индивидуальные конфигурации с быстрым выполнением."
+
+[why_after_sales_title]
+other = "Послепродажное обслуживание"
+
+[why_after_sales_text]
+other = "Гарантия 1 год, пожизненная техническая консультация и отзывчивая служба поддержки через WhatsApp/email."
+
+[projects_title]
+other = "Наши проекты по всему миру"
+
+[projects_subtitle]
+other = "Доверено подрядчиками и строительными компаниями в более чем 30 странах"
+
+[projects_view_all]
+other = "Все проекты"
+
+[cta_title]
+other = "Готовы начать проект?"
+
+[cta_text]
+other = "Получите индивидуальное предложение и техническое решение в течение 24 часов."
+
+[cta_button]
+other = "Свяжитесь с нами"
+
+[footer_products]
+other = "Продукция"
+
+[footer_quick_links]
+other = "Быстрые ссылки"
+
+[footer_follow_us]
+other = "Мы в соцсетях"
+
+[footer_about_us]
+other = "О компании"
+
+[footer_solutions]
+other = "Решения"
+
+[footer_projects]
+other = "Проекты"
+
+[footer_contact]
+other = "Контакты"
+
+[footer_rights]
+other = "Все права защищены."
+
+[footer_youtube]
+other = "YouTube"
+
+[footer_linkedin]
+other = "LinkedIn"
+
+[footer_whatsapp]
+other = "WhatsApp"
+
+[contact_title]
+other = "Получить предложение"
+
+[contact_subtitle]
+other = "Заполните форму, и мы свяжемся с вами в течение 24 часов с индивидуальным предложением."
+
+[form_name]
+other = "Полное имя *"
+
+[form_company]
+other = "Название компании"
+
+[form_email]
+other = "Email *"
+
+[form_phone]
+other = "Телефон / WhatsApp"
+
+[form_product]
+other = "Интересующий продукт"
+
+[form_product_placeholder]
+other = "Выберите продукт..."
+
+[form_country]
+other = "Страна проекта"
+
+[form_country_placeholder]
+other = "напр. Индонезия, Нигерия..."
+
+[form_message]
+other = "Ваше сообщение *"
+
+[form_message_placeholder]
+other = "Расскажите о требованиях вашего проекта, целевой производительности и особых потребностях..."
+
+[form_submit]
+other = "Отправить запрос"
+
+[form_custom]
+other = "Индивидуальный / Не уверен"
+
+[language_switch]
+other = "🌐 Язык"
+
+[explore_full_range]
+other = "Ознакомьтесь с полным ассортиментом бетонных заводов"
+
+[real_projects]
+other = "Реальные проекты, реальные результаты"

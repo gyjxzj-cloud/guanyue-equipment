@@ -1,0 +1,213 @@
+# English - i18n/en.toml
+
+# Header / Navigation
+[home]
+other = "Home"
+
+[products]
+other = "Products"
+
+[solutions]
+other = "Solutions"
+
+[projects]
+other = "Projects"
+
+[blog]
+other = "Blog"
+
+[about]
+other = "About"
+
+[contact]
+other = "Contact"
+
+[get_quote]
+other = "Get Quote"
+
+# Hero
+[hero_title]
+other = "Professional Concrete Batching Plants"
+
+[hero_subtitle]
+other = "Reliable, durable, and cost-effective concrete mixing solutions. Exported worldwide with full technical support."
+
+[hero_cta_quote]
+other = "Get a Quote"
+
+[hero_cta_products]
+other = "View Products"
+
+# Stats
+[stat_years]
+other = "Years Experience"
+
+[stat_units]
+other = "Units Delivered"
+
+[stat_countries]
+other = "Countries Exported"
+
+[stat_support]
+other = "Technical Support"
+
+# Product section
+[product_section_title]
+other = "Our Product Range"
+
+[product_section_subtitle]
+other = "From compact HZS25 to high-capacity HZDS180 — we cover all project scales"
+
+[product_learn_more]
+other = "Learn More →"
+
+[product_view_all]
+other = "View All Products"
+
+# Why Us
+[why_title]
+other = "Why Choose Us"
+
+[why_factory_title]
+other = "Factory Direct"
+
+[why_factory_text]
+other = "No middlemen. Competitive factory pricing with strict quality control from raw material to finished product."
+
+[why_shipping_title]
+other = "Global Shipping"
+
+[why_shipping_text]
+other = "Professional export logistics. We handle shipping, customs clearance, and delivery to your project site worldwide."
+
+[why_support_title]
+other = "Full Technical Support"
+
+[why_support_text]
+other = "Installation guidance, remote debugging, operator training, and spare parts supply — we've got you covered."
+
+[why_cert_title]
+other = "CE & ISO Certified"
+
+[why_cert_text]
+other = "All equipment meets international quality and safety standards. CE, ISO 9001, and SGS certified."
+
+[why_delivery_title]
+other = "Fast Delivery"
+
+[why_delivery_text]
+other = "Standard lead time 15-30 days. Custom configurations available with quick turnaround."
+
+[why_after_sales_title]
+other = "After-Sales Service"
+
+[why_after_sales_text]
+other = "One-year warranty, lifetime technical consultation, and responsive after-sales team via WhatsApp/email."
+
+# Projects
+[projects_title]
+other = "Our Projects Worldwide"
+
+[projects_subtitle]
+other = "Trusted by contractors and construction companies across 30+ countries"
+
+[projects_view_all]
+other = "View All Projects"
+
+# CTA
+[cta_title]
+other = "Ready to Start Your Project?"
+
+[cta_text]
+other = "Get a customized quote and technical proposal within 24 hours."
+
+[cta_button]
+other = "Contact Us Now"
+
+# Footer
+[footer_products]
+other = "Products"
+
+[footer_quick_links]
+other = "Quick Links"
+
+[footer_follow_us]
+other = "Follow Us"
+
+[footer_about_us]
+other = "About Us"
+
+[footer_solutions]
+other = "Solutions"
+
+[footer_projects]
+other = "Project Cases"
+
+[footer_contact]
+other = "Contact"
+
+[footer_rights]
+other = "All rights reserved."
+
+[footer_youtube]
+other = "YouTube"
+
+[footer_linkedin]
+other = "LinkedIn"
+
+[footer_whatsapp]
+other = "WhatsApp"
+
+# Contact form
+[contact_title]
+other = "Get a Quote"
+
+[contact_subtitle]
+other = "Fill out the form and we'll get back to you within 24 hours with a customized proposal."
+
+[form_name]
+other = "Full Name *"
+
+[form_company]
+other = "Company Name"
+
+[form_email]
+other = "Email Address *"
+
+[form_phone]
+other = "Phone / WhatsApp"
+
+[form_product]
+other = "Product of Interest"
+
+[form_product_placeholder]
+other = "Select a product..."
+
+[form_country]
+other = "Project Country"
+
+[form_country_placeholder]
+other = "e.g. Indonesia, Nigeria..."
+
+[form_message]
+other = "Your Message *"
+
+[form_message_placeholder]
+other = "Tell us about your project requirements, target capacity, and any specific needs..."
+
+[form_submit]
+other = "Send Inquiry"
+
+[form_custom]
+other = "Custom / Not Sure"
+
+# Language switcher
+[language_switch]
+other = "🌐 Language"
+
+# Blog / Solutions / Products - shared
+[explore_full_range]
+other = "Explore our complete range of concrete batching plants"
+
+[real_projects]
+other = "Real projects, real results"

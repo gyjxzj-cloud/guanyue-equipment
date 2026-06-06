@@ -8,35 +8,35 @@
         <p>✉️ <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
       </div>
       <div class="footer-col">
-        <h4>Products</h4>
+        <h4>{{ i18n "footer_products" }}</h4>
         <ul>
-          <li><a href="/products/hzs25/">HZS25</a></li>
-          <li><a href="/products/hzs50/">HZS50</a></li>
-          <li><a href="/products/hzs75/">HZS75</a></li>
-          <li><a href="/products/hzs90/">HZS90</a></li>
-          <li><a href="/products/hzs120/">HZS120</a></li>
-          <li><a href="/products/hzds180/">HZDS180</a></li>
+          <li><a href="{{ relLangURL "products/hzs25/" }}">HZS25</a></li>
+          <li><a href="{{ relLangURL "products/hzs50/" }}">HZS50</a></li>
+          <li><a href="{{ relLangURL "products/hzs75/" }}">HZS75</a></li>
+          <li><a href="{{ relLangURL "products/hzs90/" }}">HZS90</a></li>
+          <li><a href="{{ relLangURL "products/hzs120/" }}">HZS120</a></li>
+          <li><a href="{{ relLangURL "products/hzds180/" }}">HZDS180</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Quick Links</h4>
+        <h4>{{ i18n "footer_quick_links" }}</h4>
         <ul>
-          <li><a href="/about/">About Us</a></li>
-          <li><a href="/solutions/">Solutions</a></li>
-          <li><a href="/cases/">Project Cases</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <li><a href="/contact/">Contact</a></li>
+          <li><a href="{{ relLangURL "about/" }}">{{ i18n "footer_about_us" }}</a></li>
+          <li><a href="{{ relLangURL "solutions/" }}">{{ i18n "footer_solutions" }}</a></li>
+          <li><a href="{{ relLangURL "cases/" }}">{{ i18n "footer_projects" }}</a></li>
+          <li><a href="{{ relLangURL "blog/" }}">{{ i18n "blog" }}</a></li>
+          <li><a href="{{ relLangURL "contact/" }}">{{ i18n "footer_contact" }}</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Follow Us</h4>
-        <p>YouTube: <a href="#" target="_blank">@yourchannel</a></p>
-        <p>LinkedIn: <a href="#" target="_blank">Company Page</a></p>
-        <p>WhatsApp: <a href="https://wa.me/{{ site.Params.phone | replaceRE `[^0-9]` `` }}">{{ site.Params.phone }}</a></p>
+        <h4>{{ i18n "footer_follow_us" }}</h4>
+        <p>{{ i18n "footer_youtube" }}: <a href="#" target="_blank">@yourchannel</a></p>
+        <p>{{ i18n "footer_linkedin" }}: <a href="#" target="_blank">Company Page</a></p>
+        <p>{{ i18n "footer_whatsapp" }}: <a href="https://wa.me/{{ site.Params.phone | replaceRE `[^0-9]` `` }}">{{ site.Params.phone }}</a></p>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; {{ now.Year }} {{ site.Title }}. All rights reserved.</p>
+      <p>&copy; {{ now.Year }} {{ site.Title }}. {{ i18n "footer_rights" }}</p>
     </div>
   </div>
 </footer>

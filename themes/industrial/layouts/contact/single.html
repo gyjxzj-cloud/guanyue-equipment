@@ -1,30 +1,30 @@
 {{ define "main" }}
 <section class="contact-section">
   <div class="container">
-    <h1 class="section-title">{{ .Title }}</h1>
-    <p class="section-subtitle">{{ .Params.subtitle }}</p>
+    <h1 class="section-title">{{ i18n "contact_title" }}</h1>
+    <p class="section-subtitle">{{ i18n "contact_subtitle" }}</p>
     <div class="contact-form">
-      <form name="contact" netlify>
+      <form name="contact" netlify data-netlify="true">
         <div class="form-group">
-          <label for="name">Full Name *</label>
+          <label for="name">{{ i18n "form_name" }}</label>
           <input type="text" id="name" name="name" required>
         </div>
         <div class="form-group">
-          <label for="company">Company Name</label>
+          <label for="company">{{ i18n "form_company" }}</label>
           <input type="text" id="company" name="company">
         </div>
         <div class="form-group">
-          <label for="email">Email Address *</label>
+          <label for="email">{{ i18n "form_email" }}</label>
           <input type="email" id="email" name="email" required>
         </div>
         <div class="form-group">
-          <label for="phone">Phone / WhatsApp</label>
+          <label for="phone">{{ i18n "form_phone" }}</label>
           <input type="tel" id="phone" name="phone">
         </div>
         <div class="form-group">
-          <label for="product">Product of Interest</label>
+          <label for="product">{{ i18n "form_product" }}</label>
           <select id="product" name="product">
-            <option value="">Select a product...</option>
+            <option value="">{{ i18n "form_product_placeholder" }}</option>
             <option value="HZS25">HZS25</option>
             <option value="HZS35">HZS35</option>
             <option value="HZS50">HZS50</option>
@@ -32,18 +32,18 @@
             <option value="HZS90">HZS90</option>
             <option value="HZS120">HZS120</option>
             <option value="HZDS180">HZDS180</option>
-            <option value="Custom">Custom / Not Sure</option>
+            <option value="Custom">{{ i18n "form_custom" }}</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="country">Project Country</label>
-          <input type="text" id="country" name="country" placeholder="e.g. Indonesia, Nigeria...">
+          <label for="country">{{ i18n "form_country" }}</label>
+          <input type="text" id="country" name="country" placeholder="{{ i18n "form_country_placeholder" }}">
         </div>
         <div class="form-group">
-          <label for="message">Your Message *</label>
-          <textarea id="message" name="message" required placeholder="Tell us about your project requirements, target capacity, and any specific needs..."></textarea>
+          <label for="message">{{ i18n "form_message" }}</label>
+          <textarea id="message" name="message" required placeholder="{{ i18n "form_message_placeholder" }}"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Send Inquiry</button>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">{{ i18n "form_submit" }}</button>
       </form>
     </div>
   </div>

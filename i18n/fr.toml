@@ -1,0 +1,202 @@
+# Français - i18n/fr.toml
+
+[home]
+other = "Accueil"
+
+[products]
+other = "Produits"
+
+[solutions]
+other = "Solutions"
+
+[projects]
+other = "Projets"
+
+[blog]
+other = "Blog"
+
+[about]
+other = "À propos"
+
+[contact]
+other = "Contact"
+
+[get_quote]
+other = "Demander un Devis"
+
+[hero_title]
+other = "Centrales à Béton Professionnelles"
+
+[hero_subtitle]
+other = "Solutions de malaxage du béton fiables, durables et économiques. Exportées dans le monde entier avec un support technique complet."
+
+[hero_cta_quote]
+other = "Demander un Devis"
+
+[hero_cta_products]
+other = "Voir les Produits"
+
+[stat_years]
+other = "Années d'Expérience"
+
+[stat_units]
+other = "Unités Livrées"
+
+[stat_countries]
+other = "Pays d'Exportation"
+
+[stat_support]
+other = "Support Technique"
+
+[product_section_title]
+other = "Notre Gamme de Produits"
+
+[product_section_subtitle]
+other = "De la HZS25 compacte à la HZDS180 à haute capacité — nous couvrons toutes les tailles de projets"
+
+[product_learn_more]
+other = "En savoir plus →"
+
+[product_view_all]
+other = "Voir Tous les Produits"
+
+[why_title]
+other = "Pourquoi Nous Choisir"
+
+[why_factory_title]
+other = "Direct d'Usine"
+
+[why_factory_text]
+other = "Pas d'intermédiaires. Prix compétitifs d'usine avec un contrôle qualité rigoureux de la matière première au produit fini."
+
+[why_shipping_title]
+other = "Expédition Mondiale"
+
+[why_shipping_text]
+other = "Logistique d'exportation professionnelle. Nous gérons l'expédition, le dédouanement et la livraison sur votre site dans le monde entier."
+
+[why_support_title]
+other = "Support Technique Complet"
+
+[why_support_text]
+other = "Guide d'installation, débogage à distance, formation des opérateurs et fourniture de pièces détachées — nous nous occupons de tout."
+
+[why_cert_title]
+other = "Certifié CE et ISO"
+
+[why_cert_text]
+other = "Tous les équipements respectent les normes internationales de qualité et de sécurité. Certifiés CE, ISO 9001 et SGS."
+
+[why_delivery_title]
+other = "Livraison Rapide"
+
+[why_delivery_text]
+other = "Délai de fabrication standard de 15 à 30 jours. Configurations personnalisées disponibles avec un délai d'exécution rapide."
+
+[why_after_sales_title]
+other = "Service Après-Vente"
+
+[why_after_sales_text]
+other = "Garantie d'un an, consultation technique à vie et équipe après-vente réactive via WhatsApp/email."
+
+[projects_title]
+other = "Nos Projets dans le Monde"
+
+[projects_subtitle]
+other = "Approuvé par des entrepreneurs et des entreprises de construction dans plus de 30 pays"
+
+[projects_view_all]
+other = "Voir Tous les Projets"
+
+[cta_title]
+other = "Prêt à Lancer Votre Projet ?"
+
+[cta_text]
+other = "Obtenez un devis personnalisé et une proposition technique sous 24 heures."
+
+[cta_button]
+other = "Contactez-Nous Maintenant"
+
+[footer_products]
+other = "Produits"
+
+[footer_quick_links]
+other = "Liens Rapides"
+
+[footer_follow_us]
+other = "Suivez-Nous"
+
+[footer_about_us]
+other = "À Propos"
+
+[footer_solutions]
+other = "Solutions"
+
+[footer_projects]
+other = "Projets"
+
+[footer_contact]
+other = "Contact"
+
+[footer_rights]
+other = "Tous droits réservés."
+
+[footer_youtube]
+other = "YouTube"
+
+[footer_linkedin]
+other = "LinkedIn"
+
+[footer_whatsapp]
+other = "WhatsApp"
+
+[contact_title]
+other = "Demander un Devis"
+
+[contact_subtitle]
+other = "Remplissez le formulaire et nous vous répondrons sous 24 heures avec une proposition personnalisée."
+
+[form_name]
+other = "Nom Complet *"
+
+[form_company]
+other = "Nom de l'Entreprise"
+
+[form_email]
+other = "Adresse Email *"
+
+[form_phone]
+other = "Téléphone / WhatsApp"
+
+[form_product]
+other = "Produit d'Intérêt"
+
+[form_product_placeholder]
+other = "Sélectionnez un produit..."
+
+[form_country]
+other = "Pays du Projet"
+
+[form_country_placeholder]
+other = "ex. Indonésie, Nigeria..."
+
+[form_message]
+other = "Votre Message *"
+
+[form_message_placeholder]
+other = "Parlez-nous des exigences de votre projet, de la capacité cible et de vos besoins spécifiques..."
+
+[form_submit]
+other = "Envoyer la Demande"
+
+[form_custom]
+other = "Personnalisé / Incertain"
+
+[language_switch]
+other = "🌐 Langue"
+
+[explore_full_range]
+other = "Découvrez notre gamme complète de centrales à béton"
+
+[real_projects]
+other = "Des projets réels, des résultats réels"

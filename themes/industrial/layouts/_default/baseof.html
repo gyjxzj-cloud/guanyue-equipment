@@ -1,34 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.Lang }}">
+<html lang="{{ site.Language.Lang }}"{{ if eq .Language.Lang "ar" }} dir="rtl"{{ end }}>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
-  
+
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:site_name" content="{{ site.Title }}">
-
   <meta name="twitter:card" content="summary_large_image">
-  
+
+  <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- hreflang tags for SEO -->
+  {{ if .IsTranslated }}
+    {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+  {{ end }}
+  <link rel="alternate" hreflang="{{ site.Language.Lang }}" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
+
+  <!-- Geo-redirect: run before render to minimize flash -->
+  <script src="/js/geo-redirect.js"></script>
+
+  <!-- Styles -->
   <link rel="stylesheet" href="/css/main.css">
+  {{ if eq .Language.Lang "ar" }}
+  <link rel="stylesheet" href="/css/rtl.css">
+  {{ end }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  {{ if eq .Language.Lang "ar" }}
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  {{ end }}
 </head>
 <body>
   {{ partial "header.html" . }}
-  
+
   <main>
     {{ block "main" . }}{{ end }}
   </main>
 
   {{ partial "footer.html" . }}
-  
+
   <script src="/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,212 @@
+# العربية - i18n/ar.toml
+
+# Header / Navigation
+[home]
+other = "الرئيسية"
+
+[products]
+other = "المنتجات"
+
+[solutions]
+other = "الحلول"
+
+[projects]
+other = "المشاريع"
+
+[blog]
+other = "المدونة"
+
+[about]
+other = "عن الشركة"
+
+[contact]
+other = "اتصل بنا"
+
+[get_quote]
+other = "احصل على عرض سعر"
+
+# Hero
+[hero_title]
+other = "محطات خلط الخرسانة الاحترافية"
+
+[hero_subtitle]
+other = "حلول خلط خرسانة موثوقة ومتينة وفعالة من حيث التكلفة. مصدرة عالمياً مع دعم فني كامل."
+
+[hero_cta_quote]
+other = "احصل على عرض سعر"
+
+[hero_cta_products]
+other = "عرض المنتجات"
+
+# Stats
+[stat_years]
+other = "سنوات الخبرة"
+
+[stat_units]
+other = "وحدة تم تسليمها"
+
+[stat_countries]
+other = "دولة تم التصدير إليها"
+
+[stat_support]
+other = "الدعم الفني"
+
+# Product section
+[product_section_title]
+other = "مجموعة منتجاتنا"
+
+[product_section_subtitle]
+other = "من HZS25 المدمجة إلى HZDS180 عالية السعة — نغطي جميع أحجام المشاريع"
+
+[product_learn_more]
+other = "اعرف المزيد ←"
+
+[product_view_all]
+other = "عرض جميع المنتجات"
+
+# Why Us
+[why_title]
+other = "لماذا تختارنا"
+
+[why_factory_title]
+other = "مباشرة من المصنع"
+
+[why_factory_text]
+other = "بدون وسطاء. أسعار تنافسية من المصنع مع مراقبة جودة صارمة من المواد الخام إلى المنتج النهائي."
+
+[why_shipping_title]
+other = "شحن عالمي"
+
+[why_shipping_text]
+other = "لوجستيات تصدير احترافية. نتولى الشحن والتخليص الجمركي والتوصيل إلى موقع مشروعك في جميع أنحاء العالم."
+
+[why_support_title]
+other = "دعم فني كامل"
+
+[why_support_text]
+other = "إرشادات التركيب، التصحيح عن بعد، تدريب المشغلين، وتوريد قطع الغيار — نحن معك في كل خطوة."
+
+[why_cert_title]
+other = "حاصل على شهادة CE و ISO"
+
+[why_cert_text]
+other = "جميع المعدات تلبي معايير الجودة والسلامة الدولية. حاصلة على شهادات CE و ISO 9001 و SGS."
+
+[why_delivery_title]
+other = "تسليم سريع"
+
+[why_delivery_text]
+other = "مهلة التصنيع 15-30 يوماً. تكوينات مخصصة متاحة مع فترة تسليم سريعة."
+
+[why_after_sales_title]
+other = "خدمة ما بعد البيع"
+
+[why_after_sales_text]
+other = "ضمان لمدة عام، استشارات فنية مدى الحياة، وفريق ما بعد بيع سريع الاستجابة عبر واتساب/البريد الإلكتروني."
+
+# Projects
+[projects_title]
+other = "مشاريعنا حول العالم"
+
+[projects_subtitle]
+other = "موثوق من قبل المقاولين وشركات البناء في أكثر من 30 دولة"
+
+[projects_view_all]
+other = "عرض جميع المشاريع"
+
+# CTA
+[cta_title]
+other = "مستعد لبدء مشروعك؟"
+
+[cta_text]
+other = "احصل على عرض سعر مخصص ومقترح فني خلال 24 ساعة."
+
+[cta_button]
+other = "اتصل بنا الآن"
+
+# Footer
+[footer_products]
+other = "المنتجات"
+
+[footer_quick_links]
+other = "روابط سريعة"
+
+[footer_follow_us]
+other = "تابعنا"
+
+[footer_about_us]
+other = "عن الشركة"
+
+[footer_solutions]
+other = "الحلول"
+
+[footer_projects]
+other = "المشاريع"
+
+[footer_contact]
+other = "اتصل بنا"
+
+[footer_rights]
+other = "جميع الحقوق محفوظة."
+
+[footer_youtube]
+other = "يوتيوب"
+
+[footer_linkedin]
+other = "لينكد إن"
+
+[footer_whatsapp]
+other = "واتساب"
+
+# Contact form
+[contact_title]
+other = "احصل على عرض سعر"
+
+[contact_subtitle]
+other = "املأ النموذج وسنرد عليك خلال 24 ساعة بعرض مخصص."
+
+[form_name]
+other = "الاسم الكامل *"
+
+[form_company]
+other = "اسم الشركة"
+
+[form_email]
+other = "البريد الإلكتروني *"
+
+[form_phone]
+other = "الهاتف / واتساب"
+
+[form_product]
+other = "المنتج المهتم به"
+
+[form_product_placeholder]
+other = "اختر منتجاً..."
+
+[form_country]
+other = "دولة المشروع"
+
+[form_country_placeholder]
+other = "مثال: إندونيسيا، نيجيريا..."
+
+[form_message]
+other = "رسالتك *"
+
+[form_message_placeholder]
+other = "أخبرنا عن متطلبات مشروعك، السعة المستهدفة، وأي احتياجات خاصة..."
+
+[form_submit]
+other = "إرسال الاستفسار"
+
+[form_custom]
+other = "مخصص / غير متأكد"
+
+# Language switcher
+[language_switch]
+other = "🌐 اللغة"
+
+[explore_full_range]
+other = "استكشف مجموعتنا الكاملة من محطات خلط الخرسانة"
+
+[real_projects]
+other = "مشاريع حقيقية، نتائج حقيقية"

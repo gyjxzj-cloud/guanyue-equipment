@@ -1,37 +1,55 @@
-baseURL: "https://yourdomain.com"
-languageCode: "en-us"
-title: "Guanyu Machinery | Concrete Batching Plant Manufacturer"
+baseURL: "https://guanyuequipment.com"
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageCode: "en-US"
+    languageName: "English"
+    weight: 1
+    title: "Guanyu Machinery | Concrete Batching Plant Manufacturer"
+    params:
+      description: "Guanyu Machinery — professional manufacturer of concrete batching plants HZS25-HZDS180. CE certified, factory direct prices, worldwide shipping."
+
+  ar:
+    languageCode: "ar-SA"
+    languageName: "العربية"
+    weight: 2
+    title: "قوانيو للآلات | مصنع خلاطات الخرسانة"
+    params:
+      description: "قوانيو للآلات — مصنع محترف لخلاطات الخرسانة HZS25-HZDS180. حاصل على شهادة CE، أسعار المصنع المباشرة، شحن عالمي."
+
+  es:
+    languageCode: "es-ES"
+    languageName: "Español"
+    weight: 3
+    title: "Guanyu Machinery | Fabricante de Plantas de Hormigón"
+    params:
+      description: "Guanyu Machinery — fabricante profesional de plantas de hormigón HZS25-HZDS180. Certificado CE, precios directos de fábrica, envío mundial."
+
+  ru:
+    languageCode: "ru-RU"
+    languageName: "Русский"
+    weight: 4
+    title: "Guanyu Machinery | Производитель бетонных заводов"
+    params:
+      description: "Guanyu Machinery — профессиональный производитель бетонных заводов HZS25-HZDS180. Сертификат CE, прямые цены от завода, доставка по всему миру."
+
+  fr:
+    languageCode: "fr-FR"
+    languageName: "Français"
+    weight: 5
+    title: "Guanyu Machinery | Fabricant de Centrales à Béton"
+    params:
+      description: "Guanyu Machinery — fabricant professionnel de centrales à béton HZS25-HZDS180. Certifié CE, prix directs d'usine, expédition mondiale."
+
 theme: "industrial"
 
 params:
-  description: "Guanyu Machinery — professional manufacturer of concrete batching plants HZS25-HZDS180. CE certified, factory direct prices, worldwide shipping."
   phone: "+86-138-0000-0000"
   email: "sales@guanyumachinery.com"
   whatsapp: "+8613800000000"
-
-menu:
-  main:
-    - name: "Home"
-      url: "/"
-      weight: 1
-    - name: "Products"
-      url: "/products/"
-      weight: 2
-    - name: "Solutions"
-      url: "/solutions/"
-      weight: 3
-    - name: "Projects"
-      url: "/cases/"
-      weight: 4
-    - name: "Blog"
-      url: "/blog/"
-      weight: 5
-    - name: "About"
-      url: "/about/"
-      weight: 6
-    - name: "Contact"
-      url: "/contact/"
-      weight: 7
+  description: ""
 
 markup:
   goldmark:
@@ -48,6 +66,4 @@ outputs:
   page: ["HTML"]
   section: ["HTML"]
 
-disableKinds:
-  - "sitemap"
-  - "RSS"
+enableRobotsTXT: true

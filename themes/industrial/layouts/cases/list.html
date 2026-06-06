@@ -2,7 +2,7 @@
 <section class="section">
   <div class="container">
     <h1 class="section-title">{{ .Title }}</h1>
-    <p class="section-subtitle">{{ .Params.subtitle | default "Real projects, real results" }}</p>
+    <p class="section-subtitle">{{ .Params.subtitle | default (i18n "real_projects") }}</p>
     <div class="cases-grid">
       {{ range .Pages }}
       <a href="{{ .RelPermalink }}" class="case-card">
