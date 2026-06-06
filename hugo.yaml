@@ -1,6 +1,6 @@
 baseURL: "https://guanyuequipment.com"
 defaultContentLanguage: "en"
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true
 
 languages:
   en:
