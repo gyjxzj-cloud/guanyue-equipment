@@ -18,8 +18,8 @@
         <li><a href="{{ relLangURL "contact/" }}" class="btn btn-primary nav-cta">{{ i18n "get_quote" }}</a></li>
         <li class="lang-switcher">
           <select onchange="if(this.value) window.location.href=this.value;" class="lang-select">
-            {{ range .Site.Languages }}
-            <option value="{{ relLangURL "" }}"{{ if eq $.Site.Language.Lang .Lang }} selected{{ end }}>{{ .LanguageName }}</option>
+            {{ range $.Site.Home.AllTranslations }}
+            <option value="{{ .RelPermalink }}"{{ if eq $.Page.RelPermalink .RelPermalink }} selected{{ end }}>{{ .Language.LanguageName }}</option>
             {{ end }}
           </select>
         </li>

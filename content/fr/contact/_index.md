@@ -1,4 +1,4 @@
 ---
-title: "Contact"
+title: "Contactez-Nous"
 subtitle: "Obtenez un devis ou une proposition technique sous 24 heures"
 ---
