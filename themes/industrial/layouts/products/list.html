@@ -5,8 +5,9 @@
     <p class="section-subtitle">{{ .Params.subtitle | default (i18n "explore_full_range") }}</p>
     <div class="product-grid">
       {{ range .Pages }}
+      {{ $slug := .File.ContentBaseName }}
       <a href="{{ .RelPermalink }}" class="product-card">
-        <div class="product-card-img"><div class="placeholder-img">🏗️</div></div>
+        <div class="product-card-img" style="background:url('/images/product-{{ $slug }}.png') center/cover no-repeat;background-color:var(--light-bg);"></div>
         <h3>{{ .Title }}</h3>
         <p>{{ .Params.subtitle }}</p>
         <div class="product-card-specs">

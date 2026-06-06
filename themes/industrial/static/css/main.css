@@ -101,9 +101,10 @@ img { max-width: 100%; height: auto; }
 /* Hero */
 .hero {
   padding: 140px 0 80px;
-  background: linear-gradient(135deg, var(--secondary) 0%, #0d1b2a 100%);
+  background: linear-gradient(rgba(29,53,87,0.8), rgba(13,27,42,0.9)), url('/images/hero-bg.png') center/cover no-repeat;
   color: var(--white);
   text-align: center;
+  position: relative;
 }
 .hero h1 { font-size: 2.8rem; margin-bottom: 20px; }
 .hero .highlight { color: var(--primary); }
@@ -215,7 +216,11 @@ img { max-width: 100%; height: auto; }
 .specs-table th { background: var(--light-bg); font-weight: 600; width: 40%; }
 
 /* Contact Form */
-.contact-section { padding: 120px 0 60px; }
+.contact-section {
+  padding: 120px 0 60px;
+  background: linear-gradient(rgba(241,250,238,0.92), rgba(241,250,238,0.92)), url('/images/contact-bg.png') center/cover fixed no-repeat;
+  min-height: 80vh;
+}
 .contact-form { max-width: 600px; margin: 0 auto; }
 .form-group { margin-bottom: 20px; }
 .form-group label { display: block; font-weight: 500; margin-bottom: 6px; font-size: 0.9rem; }

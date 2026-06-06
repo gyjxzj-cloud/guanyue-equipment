@@ -5,8 +5,9 @@
     <p class="section-subtitle">{{ .Params.subtitle | default (i18n "real_projects") }}</p>
     <div class="cases-grid">
       {{ range .Pages }}
+      {{ $slug := .File.ContentBaseName }}
       <a href="{{ .RelPermalink }}" class="case-card">
-        <div class="case-card-img"><div class="placeholder-img">📸 {{ .Params.country }}</div></div>
+        <div class="case-card-img" style="background:url('/images/case-{{ $slug }}.png') center/cover no-repeat;background-color:var(--light-bg);"></div>
         <div class="case-card-body">
           <span class="case-tag">{{ .Params.country }}</span>
           <h3>{{ .Title }}</h3>
