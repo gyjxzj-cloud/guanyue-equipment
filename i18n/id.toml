@@ -1,0 +1,213 @@
+# Indonesian - i18n/id.toml
+
+# Header / Navigation
+[home]
+other = "Beranda"
+
+[products]
+other = "Produk"
+
+[solutions]
+other = "Solusi"
+
+[projects]
+other = "Proyek"
+
+[blog]
+other = "Blog"
+
+[about]
+other = "Tentang"
+
+[contact]
+other = "Kontak"
+
+[get_quote]
+other = "Dapatkan Penawaran"
+
+# Hero
+[hero_title]
+other = "Pabrik Batching Beton Profesional"
+
+[hero_subtitle]
+other = "Solusi pencampuran beton yang andal, tahan lama, dan hemat biaya. Diekspor ke seluruh dunia dengan dukungan teknis penuh."
+
+[hero_cta_quote]
+other = "Dapatkan Penawaran"
+
+[hero_cta_products]
+other = "Lihat Produk"
+
+# Stats
+[stat_years]
+other = "Tahun Pengalaman"
+
+[stat_units]
+other = "Unit Terkirim"
+
+[stat_countries]
+other = "Negara Tujuan Ekspor"
+
+[stat_support]
+other = "Dukungan Teknis"
+
+# Product section
+[product_section_title]
+other = "Rangkaian Produk Kami"
+
+[product_section_subtitle]
+other = "Dari HZS25 yang ringkas hingga HZDS180 berkapasitas tinggi — kami mencakup semua skala proyek"
+
+[product_learn_more]
+other = "Pelajari Lebih Lanjut →"
+
+[product_view_all]
+other = "Lihat Semua Produk"
+
+# Why Us
+[why_title]
+other = "Mengapa Memilih Kami"
+
+[why_factory_title]
+other = "Langsung Pabrik"
+
+[why_factory_text]
+other = "Tanpa perantara. Harga pabrik yang kompetitif dengan kontrol kualitas ketat dari bahan baku hingga produk jadi."
+
+[why_shipping_title]
+other = "Pengiriman Global"
+
+[why_shipping_text]
+other = "Logistik ekspor profesional. Kami menangani pengiriman, bea cukai, dan pengantaran ke lokasi proyek Anda di seluruh dunia."
+
+[why_support_title]
+other = "Dukungan Teknis Penuh"
+
+[why_support_text]
+other = "Panduan instalasi, debugging jarak jauh, pelatihan operator, dan pasokan suku cadang — kami siap membantu Anda."
+
+[why_cert_title]
+other = "Bersertifikat CE & ISO"
+
+[why_cert_text]
+other = "Semua peralatan memenuhi standar kualitas dan keselamatan internasional. Bersertifikat CE, ISO 9001, dan SGS."
+
+[why_delivery_title]
+other = "Pengiriman Cepat"
+
+[why_delivery_text]
+other = "Waktu pengiriman standar 15-30 hari. Konfigurasi khusus tersedia dengan waktu pengerjaan yang cepat."
+
+[why_after_sales_title]
+other = "Layanan Purna Jual"
+
+[why_after_sales_text]
+other = "Garansi satu tahun, konsultasi teknis seumur hidup, dan tim purna jual yang responsif melalui WhatsApp/email."
+
+# Projects
+[projects_title]
+other = "Proyek Kami di Seluruh Dunia"
+
+[projects_subtitle]
+other = "Dipercaya oleh kontraktor dan perusahaan konstruksi di 30+ negara"
+
+[projects_view_all]
+other = "Lihat Semua Proyek"
+
+# CTA
+[cta_title]
+other = "Siap Memulai Proyek Anda?"
+
+[cta_text]
+other = "Dapatkan penawaran harga dan proposal teknis yang disesuaikan dalam waktu 24 jam."
+
+[cta_button]
+other = "Hubungi Kami Sekarang"
+
+# Footer
+[footer_products]
+other = "Produk"
+
+[footer_quick_links]
+other = "Tautan Cepat"
+
+[footer_follow_us]
+other = "Ikuti Kami"
+
+[footer_about_us]
+other = "Tentang Kami"
+
+[footer_solutions]
+other = "Solusi"
+
+[footer_projects]
+other = "Studi Kasus"
+
+[footer_contact]
+other = "Kontak"
+
+[footer_rights]
+other = "Hak cipta dilindungi undang-undang."
+
+[footer_youtube]
+other = "YouTube"
+
+[footer_linkedin]
+other = "LinkedIn"
+
+[footer_whatsapp]
+other = "WhatsApp"
+
+# Contact form
+[contact_title]
+other = "Dapatkan Penawaran"
+
+[contact_subtitle]
+other = "Isi formulir dan kami akan menghubungi Anda dalam waktu 24 jam dengan proposal yang disesuaikan."
+
+[form_name]
+other = "Nama Lengkap *"
+
+[form_company]
+other = "Nama Perusahaan"
+
+[form_email]
+other = "Alamat Email *"
+
+[form_phone]
+other = "Telepon / WhatsApp"
+
+[form_product]
+other = "Produk yang Diminati"
+
+[form_product_placeholder]
+other = "Pilih produk..."
+
+[form_country]
+other = "Negara Proyek"
+
+[form_country_placeholder]
+other = "Misalnya Indonesia, Nigeria..."
+
+[form_message]
+other = "Pesan Anda *"
+
+[form_message_placeholder]
+other = "Ceritakan tentang kebutuhan proyek Anda, kapasitas target, dan kebutuhan spesifik lainnya..."
+
+[form_submit]
+other = "Kirim Pertanyaan"
+
+[form_custom]
+other = "Kustom / Tidak Yakin"
+
+# Language switcher
+[language_switch]
+other = "🌐 Bahasa"
+
+# Blog / Solutions / Products - shared
+[explore_full_range]
+other = "Jelajahi rangkaian lengkap pabrik batching beton kami"
+
+[real_projects]
+other = "Proyek nyata, hasil nyata"

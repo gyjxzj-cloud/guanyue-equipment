@@ -31,6 +31,10 @@ const COUNTRY_LANG = {
   'BF': 'fr', 'NE': 'fr', 'TD': 'fr', 'CG': 'fr', 'CD': 'fr', 'GA': 'fr',
   'GN': 'fr', 'BJ': 'fr', 'RW': 'fr', 'BI': 'fr', 'TG': 'fr', 'CF': 'fr',
   'HT': 'fr', 'MC': 'fr', 'BE': 'fr', 'CH': 'fr',
+
+  // Indonesian (Southeast Asia)
+  'ID': 'id', 'MY': 'id', 'PH': 'id', 'TH': 'id', 'VN': 'id', 'SG': 'id',
+  'BN': 'id', 'TL': 'id',
 };
 
 // Languages that have RTL direction
@@ -50,6 +54,7 @@ async function handleRequest(request) {
     path.startsWith('/en/') || path.startsWith('/ar/') ||
     path.startsWith('/es/') || path.startsWith('/ru/') ||
     path.startsWith('/fr/') ||
+    path.startsWith('/id/') ||
     path.startsWith('/cdn-cgi/') ||
     path.startsWith('/.well-known/') ||
     path === '/robots.txt' ||

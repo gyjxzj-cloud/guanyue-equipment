@@ -48,6 +48,15 @@ languages:
     params:
       description: "Guanyu Machinery — fabricant professionnel de centrales à béton HZS25-HZDS180. Certifié CE, prix directs d'usine, expédition mondiale."
 
+  id:
+    contentDir: content/id
+    languageCode: "id-ID"
+    languageName: "Bahasa Indonesia"
+    weight: 6
+    title: "Guanyu Machinery | Produsen Pabrik Batching Beton"
+    params:
+      description: "Guanyu Machinery — produsen profesional pabrik batching beton HZS25-HZDS180. Bersertifikat CE, harga langsung pabrik, pengiriman ke seluruh dunia."
+
 theme: "industrial"
 
 params:
