@@ -53,7 +53,7 @@
       {{ range $allProducts }}
       {{ $slug := .File.ContentBaseName }}
       <a href="{{ .RelPermalink }}" class="product-card">
-        <div class="product-card-img" style="background:url('/images/product-{{ $slug }}.png') center/cover no-repeat;background-color:var(--light-bg);">
+        <div class="product-card-img" style="background:url('/images/product-{{ $slug }}.webp') center/cover no-repeat;background-color:var(--light-bg);">
         </div>
         <h3>{{ .Title }}</h3>
         <p>{{ .Params.subtitle }}</p>
@@ -119,7 +119,7 @@
       {{ range first 3 $allCases }}
       {{ $slug := .File.ContentBaseName }}
       <a href="{{ .RelPermalink }}" class="case-card">
-        <div class="case-card-img" style="background:url('/images/case-{{ $slug }}.png') center/cover no-repeat;background-color:var(--light-bg);">
+        <div class="case-card-img" style="background:url('/images/case-{{ $slug }}.webp') center/cover no-repeat;background-color:var(--light-bg);">
         </div>
         <div class="case-card-body">
           <span class="case-tag">{{ .Params.country }}</span>
